@@ -8,5 +8,10 @@ public class AlphabetNumberConverter_Test {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void constructor_WithNoFileName_ShouldCreateNewFile(){
+		assertTrue(AlphabetNumberConverter());
+	}
 
 }
